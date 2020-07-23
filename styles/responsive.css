@@ -18,6 +18,12 @@
   #page-home main h1 {
     margin-top: -150px;
   }
+  #page-search-results .cards {
+    grid-template-columns: 1fr;
+  }
+  #page-search-results .cards img {
+    height: 200px;
+  }
 }
 @media (min-width: 1600px) {
   #page-home {
